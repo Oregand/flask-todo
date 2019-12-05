@@ -1,4 +1,5 @@
-# app.pyfrom flask import Flask           # import flask
+# app.py
+from flask import Flask           # import flask
 app = Flask(__name__)             # create an app instance
 
 @app.route("/")                   # at the end point /
