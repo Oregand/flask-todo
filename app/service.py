@@ -1,7 +1,7 @@
 from models import ToDoModel
 
 class ToDoService:
-    def __inti__(self):
+    def __init__(self):
         self.model = ToDoModel()
     
     def create(self, params):
